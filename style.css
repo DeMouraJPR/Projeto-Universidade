@@ -145,6 +145,16 @@ main {
     margin-bottom: 10px;
 }
 
+.textlabel > a {
+    text-decoration: line-through;
+    font-style: italic;
+    font-size: xx-small;
+    color: rgba(255, 255, 255, 0.699);
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .textlabel > input {
     width: 100%;
     border: none;
